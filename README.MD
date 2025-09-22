@@ -1,14 +1,11 @@
-# SET VENV
-python3 -m venv venv
-source venv/bin/activate
+# Database Management System (SGBD) - SQL Server
 
-# GERAR DOCUMENTAÇÃO
+Um Sistema de Gerenciamento de Banco de Dados para SQL Server desenvolvido com uma arquitetura moderna, utilizando Python + Flask no back-end e React + Vite no front-end.
 
-### Gerar documentação HTML
-sphinx-build -b html docs docs/build
-
-### Gerar automaticamente com autodoc
-sphinx-apidoc -o docs ./
-
-### Gerar e visualizar localmente
-sphinx-build -b html docs docs/build && open docs/build/index.html
+## 📋 Índice
+- Visão Geral
+- Pré-requisitos
+- Configuração do Projeto
+- Instalação e Execução
+- Funcionalidades
+- Estrutura do Projeto
