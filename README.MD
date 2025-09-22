@@ -87,20 +87,26 @@ Após a inicialização, acesse a aplicação em:
 
 ### Gerenciamento de Bancos de Dados
 ✅ Criar novos bancos de dados
+
 ✅ Excluir bancos de dados existentes
 
 ### Gerenciamento de Tabelas
 ✅ Criar novas tabelas
+
 ✅ Excluir tabelas existentes
 
 ### Gerenciamento de Campos
 ✅ Adicionar novos campos às tabelas
+
 ✅ Alterar propriedades dos campos
+
 ✅ Excluir campos existentes
 
 ### Gerenciamento de Registros
 ✅ Adicionar novos registros
+
 ✅ Alterar registros existentes
+
 ✅ Excluir registros
 
 📁 Estrutura do Projeto
