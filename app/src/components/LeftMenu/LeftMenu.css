@@ -1,0 +1,15 @@
+.menu-items {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.menu-items a {
+    display: block;
+    border: 1px solid transparent;
+}
+
+.menu-items a:hover {
+    border-bottom: 1px solid var(--primary);
+}

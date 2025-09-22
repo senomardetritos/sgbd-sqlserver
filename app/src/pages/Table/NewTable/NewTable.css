@@ -1,0 +1,40 @@
+.table-name {
+    display: flex;
+    gap: 8px;
+}
+
+.table-name input {
+    width: 300px;
+}
+
+.columns table {
+    width: 100%;
+}
+
+.columns table tbody tr td input,
+.columns table tbody tr td select {
+    width: 100%;
+}
+
+.columns table tbody tr td.md {
+    width: 150px;
+}
+
+.columns table tbody tr td.sm {
+    width: 60px;
+}
+
+.columns table tfoot tr th div {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.columns table tfoot tr th div button {
+    width: 200px;
+}
+
+.columns table tfoot tr th div.error {
+    font-size: 12px;
+    color: var(--danger);
+}

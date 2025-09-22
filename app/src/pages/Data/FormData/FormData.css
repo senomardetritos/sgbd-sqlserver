@@ -1,0 +1,42 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-options {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.form-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.form-items .form-control {
+    width: calc(33% - 16px);
+}
+
+.footer-buttons {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.footer-buttons button {
+    max-width: 200px;
+}
+
+.modal-delete {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.modal-delete footer {
+    display: flex;
+    gap: 16px;
+}

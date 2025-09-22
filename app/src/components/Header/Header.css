@@ -1,0 +1,30 @@
+.form-header {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.form-header .form-header-left,
+.form-header .form-header-right,
+.form-header .form-modal {
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    width: 100%;
+}
+.form-header .form-header-right {
+    justify-content: end;
+}
+
+.form-header .form-header-left select {
+    min-width: 300px;
+}
+
+.form-header .form-modal h4 {
+    width: 60px;
+}
+
+.form-header .form-modal input {
+    width: calc(100% - 60px);
+}

@@ -1,0 +1,16 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "dev": "python3 -m flask --app main run --reload && pip3 freeze > requirements.txt",
+    "build": "pip3 freeze > requirements.txt"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

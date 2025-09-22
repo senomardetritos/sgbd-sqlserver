@@ -1,0 +1,79 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-options {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.table-data-container {
+    overflow-x: auto;
+}
+
+.table-data {
+    width: 100%;
+}
+
+.table-data tbody tr td {
+    font-size: 9pt;
+    text-overflow: ellipsis;
+    max-width: 100px;
+    overflow: hidden;
+    text-wrap: nowrap;
+}
+
+.table-data tbody tr td.link {
+    cursor: pointer;
+}
+
+.table-data tbody tr td.link:hover {
+    color: var(--primary);
+}
+
+.table-data .sticky-col {
+    position: sticky;
+    right: 0;
+    top: 1;
+    background-color: var(--dark);
+    z-index: 1;
+    width: 90px !important;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+
+.table-data .sticky-col button {
+    width: 45%;
+}
+
+.data-footer {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    margin-top: 16px;
+}
+
+.data-footer .paginate {
+    display: flex;
+    gap: 4px;
+}
+
+.data-footer .paginate button {
+    width: auto;
+    padding: 4px 12px;
+}
+
+.modal-delete {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.modal-delete footer {
+    display: flex;
+    gap: 16px;
+}

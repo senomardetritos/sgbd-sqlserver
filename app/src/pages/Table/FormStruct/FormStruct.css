@@ -1,0 +1,35 @@
+.form-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+}
+
+.form-items .form-control {
+    width: calc(33% - 16px);
+    align-items: start;
+}
+
+.form-items .form-control input,
+.form-items .form-control select {
+    width: 100%;
+}
+
+.form-items .form-control input[type=checkbox] {
+    width: auto!important;
+}
+
+.form-items footer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.form-items footer button {
+    width: 200px;
+}
+
+.form-errors .error {
+    font-size: 12px;
+    color: var(--danger);
+    font-weight: 600;
+}
